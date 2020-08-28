@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <style>
+        .body, .container{
+            height: 100vh;
+        }
+
+        li{
+            list-style-type: none;
+            font-size: 18px;
+            text-align: center;
+            padding-right: 33px;
+            padding-bottom: 5px;;
+        }
+
+        h5, .heads{
+            font-size: 24px;
+            font-family: 'Alata', sans-serif;
+        }
+        h2 span{
+            font-size: 18px;
+        }
+
+        marquee{
+            border-radius: 16px;
+        }
+
+        .main{
+            border-width: 3px;
+            background-color: white;
+            font-weight: bolder;
+            font-size: 20px;   
+        }
+
+        .main:hover{
+            background-color: #17a2b8!important;
+            color: #fff!important;
+            cursor: pointer;
+        }
+
+        .hide{
+            display: none;
+        }
+    </style>
+    </head>
+
+<body class="bg-dark body">
+<div class="container modalSample my-auto">
+
+
+    <div class="card-deck h-100 align-items-center text-center">
+        <div class="card bg-info text-white ">
+          
+          <div class="card-body">
+            <h5 class="card-title">Basic</h5>
+            <h2 class="card-title py-3 font-weight-bolder">$5/<span>seat</span></h5>
+            <ul class="card-text">
+                <li>Medium Screen</li>
+                <li>Cup Of Coffee</li>
+                <li>Reserved Seats</li>
+                <li>Air-Conditioner</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card bg-info  text-white">  
+          <div class="card-body">
+            <h5 class="card-title">Standard</h5>
+            <h2 class="card-title py-3 font-weight-bolder">$15/<span>seat</span></h5>
+            <ul class="card-text">
+                <li>Large Screen</li>
+                <li>Cup Of Coffee</li>
+                <li>Reserved Seats</li>
+                <li>Air-Conditioner</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card bg-info  text-white">
+          <div class="card-body">
+            <h5 class="card-title">Premium</h5>
+            <h2 class="card-title py-3 font-weight-bolder">$25/<span>seat</span></h5>
+            <ul class="card-text">
+                <li>Extra Screen</li>
+                <li>Refreshment</li>
+                <li>Reserved Seats</li>
+                <li>Air-Conditioner</li>
+            </ul>
+          </div>
+        </div>
+            <button class="btn btn-block text-info border-info button main" onclick="calculatePrice()">Click to Check Your Total Price</button>
+    
+        <marquee direction="left" class="text-info bg-white py-2 mt-3">We Offer a great Entertainment in low Prices . Our main gole is to provide satifaction & entertainment to people in this fast moving world.</marquee>  
+    </div>
+  </div>
+<!-- <h1 class="text-white py-5 text-center" style="font-family: 'Alata', sans-serif;"> PRICE OF BOOKED SEAT </h1> -->
+<!-- <div class="bg-white text-center">
+<table class="table table-striped table-hover">
+    <thead>
+      <tr>
+        <th scope="col">S.No</th>
+        <th scope="col">Movie Name</th>
+        <th scope="col">Selected Seats</th>
+        <th scope="col">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Drillis Ertugrul</td>
+        <td>=====</td>
+        <td>==*==</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Home Alone</td>
+        <td>=====</td>
+        <td>==*==</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Mamma</td>
+        <td>=====</td>
+        <td>==*==</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Money Heist</td>
+        <td>=====</td>
+        <td>==*==</td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>Osman Ghazi</td>
+        <td>=====</td>
+        <td>==*==</td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td>Winner</td>
+        <td>=====</td>
+        <td>==*==</td>
+      </tr>
+    </tbody>
+  </table>
+</div> -->
+    
+
+
+    
+</body>
+<script src="script.js"></script>
+
+</html>

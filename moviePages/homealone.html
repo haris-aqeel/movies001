@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Alone</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        img {
+            cursor: pointer;
+            position: relative;
+        }
+
+        img:hover {
+            position: relative;
+            bottom: 7px;
+            right: 7px;
+            filter: invert(20%);
+        }
+
+        .clicked-image {
+            filter: invert(20%);
+        }
+
+        .unclicked-image {
+            filter: invert(0%);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand font-weight-bolder" href="#">MOVIES</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link font-weight-bold" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="../moviePages/pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid bg-dark text-white my-3">
+        <h1 class="text-capitalize text-center font-weight-bold py-4">Home Alone</h1>
+
+        <div class="container">
+            <p class="mb-3">Home Alone is a 1990 American Christmas comedy film written and produced by John Hughes and
+                directed by Chris Columbus. It stars Macaulay Culkin, Joe Pesci, Daniel Stern, John Heard, and Catherine
+                O'Hara. The film follows Kevin (Culkin), an eight-year-old boy, who must defend his home from two
+                burglars, Harry and Marv (Pesci and Stern), after his family mistakenly leaves him behind on their
+                Christmas vacation. It was filmed between February and May 1990, in an array of locations. The film was
+                originally meant to be a production from Warner Bros., but was changed to a 20th Century Fox production
+                when Hughes exceeded a $10 million budget that he promised for the film with Warner Bros.</p>
+        </div>
+        <br /><br />
+
+    </div>
+
+    <div class="container text-center">
+
+        <a href=""   data-target="#exampleModal" id=" linkh1" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh2" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh3" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh4" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh5" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh6" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh7" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh8" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh9" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a><br />
+        <a href=""   data-target="#exampleModal" id=" linkh10" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh11" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh12" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh13" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh14" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh15" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh16" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a><br />
+        <a href=""   data-target="#exampleModal" id=" linkh17" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh18" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh19" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh20" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a>
+        <a href=""   data-target="#exampleModal" id=" linkh21" onClick='tranfer(this.id)'><img
+                src="images/movie-seat.png"></a><br />
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center" id="exampleModalLabel">Reserve Your Seat</h5>
+                        <button type="button" class="close" onClick="cancelSeat()" data-dismiss="modal"
+                            aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>Payment is at the time of Entrance</h3>
+                        Are You sure You Want to Reserve the Seat?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary no" data-dismiss="modal"
+                            onClick="cancelSeat()">Cancel</button>
+                        <button type="button" class="btn btn-primary yes" onClick="reserveSeat()"
+                            data-dismiss="modal">Yes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1><span class="countSeats my-5">0</span> Seats are reserved out of 28 Seats.</h1>
+        <button type="button" class="btn btn-secondary " onClick="reset()">Reset All Seats</button>
+
+    </div>
+
+    <!--BOOTSTRAP LINKS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+
+
+var allItemsID = [''];
+        var count = 0;
+        JSON.parse(localStorage.getItem('allID')).forEach(element => {
+            document.getElementById(element).classList.add('clicked-image')
+        });
+        document.querySelector('.countSeats').textContent = localStorage.getItem('counth')
+        var currentID ;
+            function tranfer(ID) {
+                currentID = ID;
+                allItemsID = JSON.parse(localStorage.getItem('allID'));
+                count = allItemsID.length;
+                if (allItemsID.includes(ID)){
+                    document.getElementById(ID).removeAttribute('data-toggle')
+                    return alert('Sorry! This Seat is Already Reserved');
+                    
+                    
+                }else{
+                    document.getElementById(ID).setAttribute('data-toggle', 'modal')
+                    
+                    
+                }
+            }
+
+            function reserveSeat() {
+                    
+                    allItemsID.push(currentID);
+                    count++;
+                    localStorage.setItem('allID', JSON.stringify(allItemsID));
+                    localStorage.setItem('counth', count);
+                    addSelectionEffects();
+                
+            }
+
+            function addSelectionEffects() {
+                    document.getElementById(currentID).classList.add('clicked-image');
+                    document.querySelector('.countSeats').textContent = count;
+            }
+
+            function reset(){
+                
+                localStorage.setItem('allID', JSON.stringify([]))
+                localStorage.setItem('counth', 0);
+                location.reload();
+            }
+
+    </script>
+<script src = "../script.js"></script>
+
+</body>
+
+</html>
