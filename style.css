@@ -5,10 +5,14 @@
 }
 
 body{
-    background-image: url('images/background.jpg');
+    opacity: 0.8;
+    background-image: url('https://images.cdn4.stockunlimited.net/preview1300/cinema-background-with-movie-objects_1823382.jpg')
+    
 }
     
-
+nav a{
+    font-size: 22px;
+color: #000;}
 
 .container{
     height: 90vh;
